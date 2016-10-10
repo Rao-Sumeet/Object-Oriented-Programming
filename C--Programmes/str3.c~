@@ -1,0 +1,12 @@
+#include<stdio.h>   //length of string ;
+void main()
+{  
+  char str[10] ;
+  int i , L=0 ;
+printf("enter string of name : \n");
+ for( i=0 ; str[i] != '\0' ; i++ ) 
+{ scanf( "%s" , &str[i] );
+  L++;
+}
+ printf( " string length is : \t %d " , L ) ; 
+ }

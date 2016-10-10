@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+
+struct student {
+            char name[20] ; 
+            int rollno ; 
+            int marks ;
+               } ;                               			
+
+
+
+void main ()
+ {
+	
+	struct student s1 = {	"sumit yadav" , 121 , 78 } ; 
+                    																		 					                					   
+       printf("name of students is : %s \n" , s1.name );
+       printf("rollno of students is : %d \n" , s1.rollno );                                      
+       printf("marks of students is : %d \n" , s1.marks );                                     
+       
+ }                                      
+                                               

@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{  
+   char str[5]= "sumit" ; 
+   int vowel=0 , i ;
+  
+  for( i=0 ; str[i]!='\0' ; i++ )
+ {   
+  if( str[i]=='a'|| str[i]=='e'|| str[i]=='i' || str[i]=='o' || str[i]=='u' )
+    { 
+      vowel++;      
+          }
+ }
+      printf( "no of vowels is : \n %d", vowel);
+
+}
